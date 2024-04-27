@@ -22,6 +22,10 @@ The "Password Generator" is a project developed entirely in pure JavaScript, fea
 
 This project was a great learning experience as it involved intricate DOM manipulations and advanced CSS techniques. Developing the slider for password length adjustment taught me about responsive design elements and user input handling in JavaScript. Implementing the clipboard functionality was also challenging but rewarding, as it enhanced the application's user experience significantly.
 
+## Video
+
+https://github.com/EngDann/generator-Password/assets/137555908/d5019767-c41f-4be8-a617-db27e9a3011b
+
 ## How to Use
 
 To use the "Password Generator", follow the steps below:
@@ -81,6 +85,10 @@ O "Gerador de Senha" é um projeto desenvolvido inteiramente em JavaScript puro,
 ## Desafios e Aprendizados
 
 Este projeto foi uma ótima experiência de aprendizado, pois envolveu manipulações intricadas do DOM e técnicas avançadas de CSS. Desenvolver o deslizante para ajuste do comprimento da senha me ensinou sobre elementos de design responsivo e manipulação de entradas do usuário em JavaScript. Implementar a funcionalidade da área de transferência também foi desafiador, mas gratificante, pois melhorou significativamente a experiência do usuário da aplicação.
+
+##Video
+
+https://github.com/EngDann/generator-Password/assets/137555908/d5019767-c41f-4be8-a617-db27e9a3011b
 
 ## Como Usar
 
