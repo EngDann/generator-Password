@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./CSS/style.css" />
+        <link rel="icon" href="./img/blocked.png" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <script src="./JS/script.js" defer></script>
+        <title>Gerador de Senha</title>
+    </head>
+    <body>
+        <header id="titulo">
+            <img
+                class="logo"
+                src="./img/logo.png"
+                alt="Logo Gerador de Senha"
+            />
+        </header>
+        <main class="container-input">
+            <span class="titulo_"
+                >Tamanho:
+                <span class="titulo_" id="valor"></span> caracteres</span
+            >
+            <input
+                type="range"
+                class="slider"
+                id="slider"
+                min="5"
+                max="30"
+                value="0"
+            />
+            <button id="butao" class="butao_slider">Gerar senha</button>
+        </main>
+        <div id="container-senha" class="container_senha escondida">
+            <span class="title">Sua senha gerada foi:</span>
+            <span id="senha" class="senha_"
+                ><i
+                    class="fa-solid fa-copy fa-bounce fa-xl"
+                    style="color: #3aa12a"
+                ></i
+            ></span>
+            <span class="tolltip">Clique na senha para copiar.☝️</span>
+            <input
+                class="senha_copiada"
+                type="text"
+                placeholder="Confira sua senha:"
+            />
+        </div>
+    </body>
+</html>
